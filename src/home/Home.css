@@ -1,14 +1,23 @@
-body {
-  
-}
-
-.div-1{
-  height: auto;
-}
-
 
 
 h1,
 pre {
   color: white;
+}
+
+.div-1{
+  flex: 2;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.img-principal {
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+  object-position: bottom; 
 }

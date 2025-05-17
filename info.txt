@@ -1,0 +1,5 @@
+Colors:
+- Azul oscuro (#1A237E) – confianza y estabilidad (NavBar).
+- Blanco o gris claro (#F9F9F9, #ECEFF1) – fondo limpio.
+- Gris neutro (#455A64) – texto secundario.
+- Azul brillante (#42A5F5) – botones y enlaces activos.

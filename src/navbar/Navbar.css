@@ -1,13 +1,14 @@
 nav {
+    flex: 1;
     width: 100%;
     background-color: #1A237E;
     padding: 10px 0;
-
-
+    
+    max-height: 10vh;
 }
 
 nav>div {
-    align-items: start;
+    align-items: center;
 }
 
 ul {
