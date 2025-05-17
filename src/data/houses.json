@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "address": "123 Elm Street, New York, NY",
+      "description": "Spacious family house with a beautiful garden.",
+      "price": 450000,
+      "img": "../images/houses/house1.jpg",
+      "type": "house"
+    },
+    {
+      "id": 2,
+      "address": "456 Oak Avenue, Los Angeles, CA",
+      "description": "Modern home with open concept design and pool.",
+      "price": 780000,
+      "img": "../images/houses/house2.jpg",
+      "type": "house"
+    },
+    {
+      "id": 3,
+      "address": "789 Pine Road, Austin, TX",
+      "description": "Charming cottage-style house near downtown.",
+      "price": 350000,
+      "img": "../images/houses/house3.jpg",
+      "type": "house"
+    },
+    {
+      "id": 4,
+      "address": "321 Birch Lane, Miami, FL",
+      "description": "Elegant home with ocean view and terrace.",
+      "price": 910000,
+      "img": "../images/houses/house4.jpg",
+      "type": "house"
+    },
+    {
+      "id": 5,
+      "address": "654 Cedar Street, Seattle, WA",
+      "description": "Classic two-story home with finished basement.",
+      "price": 600000,
+      "img": "../images/houses/house5.jpg",
+      "type": "house"
+    },
+    {
+      "id": 6,
+      "address": "987 Walnut Blvd, Denver, CO",
+      "description": "Quiet suburban house with a large backyard.",
+      "price": 520000,
+      "img": "../images/houses/house6.jpg",
+      "type": "house"
+    },
+    {
+      "id": 7,
+      "address": "135 Maple Court, Chicago, IL",
+      "description": "Renovated home with smart home features.",
+      "price": 675000,
+      "img": "../images/houses/house7.jpg",
+      "type": "house"
+    },
+    {
+      "id": 8,
+      "address": "246 Spruce Way, Portland, OR",
+      "description": "Eco-friendly house with solar panels.",
+      "price": 580000,
+      "img": "../images/houses/house8.jpg",
+      "type": "house"
+    },
+    {
+      "id": 9,
+      "address": "357 Aspen Drive, Atlanta, GA",
+      "description": "Traditional home in a great neighborhood.",
+      "price": 410000,
+      "img": "../images/houses/house9.jpg",
+      "type": "house"
+    },
+    {
+      "id": 10,
+      "address": "468 Chestnut Circle, Phoenix, AZ",
+      "description": "Desert-style house with mountain views.",
+      "price": 470000,
+      "img": "../images/houses/house10.jpg",
+      "type": "house"
+    },
+    {
+      "id": 11,
+      "address": "1010 Park Ave, New York, NY",
+      "description": "Luxury apartment with skyline view.",
+      "price": 1200000,
+      "img": "../images/apartments/apartment1.jpg",
+      "type": "apartment"
+    },
+    {
+      "id": 12,
+      "address": "2020 Wilshire Blvd, Los Angeles, CA",
+      "description": "Modern apartment in the city center.",
+      "price": 850000,
+      "img": "../images/apartments/apartment2.jpg",
+      "type": "apartment"
+    },
+    {
+      "id": 13,
+      "address": "3030 Congress Ave, Austin, TX",
+      "description": "Stylish loft apartment with balcony.",
+      "price": 490000,
+      "img": "../images/apartments/apartment3.jpg",
+      "type": "apartment"
+    },
+    {
+      "id": 14,
+      "address": "4040 Brickell Ave, Miami, FL",
+      "description": "Oceanfront apartment with private access.",
+      "price": 950000,
+      "img": "../images/apartments/apartment4.jpg",
+      "type": "apartment"
+    },
+    {
+      "id": 15,
+      "address": "5050 1st Ave, Seattle, WA",
+      "description": "Downtown apartment near major tech hubs.",
+      "price": 740000,
+      "img": "../images/apartments/apartment5.jpg",
+      "type": "apartment"
+    },
+    {
+      "id": 16,
+      "address": "6060 Broadway, Denver, CO",
+      "description": "Bright apartment with mountain views.",
+      "price": 680000,
+      "img": "../images/apartments/apartment6.jpg",
+      "type": "apartment"
+    },
+    {
+      "id": 17,
+      "address": "7070 Lake Shore Dr, Chicago, IL",
+      "description": "Cozy studio apartment with lake view.",
+      "price": 430000,
+      "img": "../images/apartments/apartment7.jpg",
+      "type": "apartment"
+    },
+    {
+      "id": 18,
+      "address": "8080 Burnside St, Portland, OR",
+      "description": "Minimalist design apartment close to transport.",
+      "price": 510000,
+      "img": "../images/apartments/apartment8.jpg",
+      "type": "apartment"
+    },
+    {
+      "id": 19,
+      "address": "9090 Peachtree Rd, Atlanta, GA",
+      "description": "Comfortable 2-bedroom apartment in central area.",
+      "price": 575000,
+      "img": "../images/apartments/apartment9.jpg",
+      "type": "apartment"
+    },
+    {
+      "id": 20,
+      "address": "10001 Camelback Rd, Phoenix, AZ",
+      "description": "Affordable apartment with community amenities.",
+      "price": 390000,
+      "img": "../images/apartments/apartment10.jpg",
+      "type": "apartment"
+    }
+  ]
+}
