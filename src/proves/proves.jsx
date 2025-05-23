@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./proves.css"
 
 export default function Prova(){
     

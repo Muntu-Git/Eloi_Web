@@ -1,25 +1,23 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css"
 
 export default function NavBar() {
 
     return (
 
-        <nav>
+        <nav className="navbar-principal">
 
-            <ul>
-                <li>
-                    <Link to="/home">Home</Link>
+            <ul className="navbar-ul">
+                <li className="navbar-li"> 
+                    <Link to="/home" className="navbar-link">Home</Link>
                 </li>
-                <li>
-                    <Link to="/houses">Houses</Link>
+                <li className="navbar-li">
+                    <Link to="/properties" className="navbar-link">Properties</Link>
                 </li>
-                <li>
-                    <Link to="/about">About</Link>
+                <li className="navbar-li">
+                    <Link to="/about" className="navbar-link">About</Link>
                 </li>
-                <li>
-                    <Link to="/contact">Contact</Link>
+                <li className="navbar-li">
+                    <Link to="/contact" className="navbar-link">Contact</Link>
                 </li>
             </ul>
         </nav>

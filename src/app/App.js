@@ -1,5 +1,5 @@
-import './App.css';
 import NavBar from '../navbar/Navbar';
+import Footer from "../footer/footer"
 import { Outlet } from 'react-router-dom';
 
 export const App = () => {
@@ -7,6 +7,7 @@ export const App = () => {
     <div className="App">
       <NavBar/>
       <Outlet/> 
+      <Footer/>
     </div>
   );
 }

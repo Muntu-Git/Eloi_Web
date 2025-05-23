@@ -1,21 +1,231 @@
+/* 
+*********************
+GENERAL 
+*********************
+*/
+
+
+.App {
+  text-align: center;
+  background-color: #d1d1d1; ;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 html, body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-}
-
-#root{
+  font-family: sans-serif;
+  background-color: #ebeadf;
   
 }
 
 
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+/* 
+*********************
+NAVBAR 
+*********************
+*/
+
+.navbar-principal {
+  flex: 1;
+  width: 100%;
+  background-color: #1d0000;
+  padding: 0; /* Elimina padding que interfiere con el 100% height */
+  
 }
+
+.navbar-ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-li {
+  background-color: #1d0000;
+  padding: 36px 0;
+  width: 150px;
+}
+
+.navbar-link {
+  padding: 36px o;
+  text-decoration: none;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  display: flex; /* Hace que el texto se centre */
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-li:hover {
+  background-color: #ffffff;
+}
+
+.navbar-li:hover a {
+  color: rgb(0, 0, 0);
+}
+
+
+/* 
+*********************
+FOOTER 
+*********************
+*/
+
+.footer-div{
+  background-color: #00021a;
+  color: white;
+}
+
+/* 
+*********************
+HOME 
+*********************
+*/
+
+.home-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay-content {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.black-section {
+  background-color: #00021a;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.black-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.black-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+/* 
+*********************
+PROPERTIES 
+*********************
+*/
+
+
+.properties-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.properties-buttons {
+  margin-bottom: 20px;
+}
+
+.properties-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #eee;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.properties-button.active {
+  background-color: #1d0000;
+  color: white;
+}
+
+.properties-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.properties-card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 1000px;
+  height: auto;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.properties-card-image {
+  flex: 1;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+
+}
+
+.properties-card-text{
+  flex: 1;
+  padding: 20px;
+}
+
+.properties-card h2 {
+  font-size: 20px;
+  margin: 0 0 5px;
+}
+
+.properties-card p {
+  margin: 4px 0;
+}
+
+/* 
+*********************
+ABOUT 
+*********************
+*/
+
+
+
+/* 
+*********************
+CONTACT 
+*********************
+*/

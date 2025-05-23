@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "nombre": "Casa Moderna",
+    "direccion": "Calle Roble 45, Barcelona",
+    "precio": "€350,000",
+    "imagen": "../images/houses/house1.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 2,
+    "nombre": "Casa Rústica",
+    "direccion": "Calle Encina 32, Valencia",
+    "precio": "€310,000",
+    "imagen": "../images/houses/house2.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 3,
+    "nombre": "Casa de Campo",
+    "direccion": "Camino Rural 12, Girona",
+    "precio": "€220,000",
+    "imagen": "../images/houses/house3.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 4,
+    "nombre": "Chalet Costero",
+    "direccion": "Av. Marítima 78, Málaga",
+    "precio": "€480,000",
+    "imagen": "../images/houses/house4.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 5,
+    "nombre": "Casa Urbana",
+    "direccion": "Calle Mayor 23, Zaragoza",
+    "precio": "€295,000",
+    "imagen": "../images/houses/house5.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 6,
+    "nombre": "Casa Familiar",
+    "direccion": "Plaza del Sol 9, Sevilla",
+    "precio": "€320,000",
+    "imagen": "../images/houses/house6.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 7,
+    "nombre": "Villa de Lujo",
+    "direccion": "Calle Alta 101, Marbella",
+    "precio": "€750,000",
+    "imagen": "../images/houses/house7.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 8,
+    "nombre": "Casa Minimalista",
+    "direccion": "Paseo Verde 56, Bilbao",
+    "precio": "€330,000",
+    "imagen": "../images/houses/house8.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 9,
+    "nombre": "Casa Tradicional",
+    "direccion": "Calle Real 17, Valladolid",
+    "precio": "€270,000",
+    "imagen": "../images/houses/house9.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 10,
+    "nombre": "Casa Independiente",
+    "direccion": "Av. del Prado 4, Salamanca",
+    "precio": "€400,000",
+    "imagen": "../images/houses/house10.jpg",
+    "type": "casa"
+  },
+  {
+    "id": 11,
+    "nombre": "Apartamento Centro",
+    "direccion": "Av. Gran Vía 23, Madrid",
+    "precio": "€180,000",
+    "imagen": "../images/apartments/apartment1.jpg",
+    "type": "apartamento"
+  },
+  {
+    "id": 12,
+    "nombre": "Ático Luminoso",
+    "direccion": "Calle Sol 88, Valencia",
+    "precio": "€250,000",
+    "imagen": "../images/apartments/apartment2.jpg",
+    "type": "apartamento"
+  },
+  {
+    "id": 13,
+    "nombre": "Piso Reformado",
+    "direccion": "Calle Luna 10, Granada",
+    "precio": "€160,000",
+    "imagen": "../images/apartments/apartment3.jpg",
+    "type": "apartamento"
+  },
+  {
+    "id": 14,
+    "nombre": "Apartamento Playa",
+    "direccion": "Av. Costa 99, Alicante",
+    "precio": "€230,000",
+    "imagen": "../images/apartments/apartment4.jpg",
+    "type": "apartamento"
+  },
+  {
+    "id": 15,
+    "nombre": "Loft Industrial",
+    "direccion": "Calle Hierro 14, Bilbao",
+    "precio": "€275,000",
+    "imagen": "../images/apartments/apartment5.jpg",
+    "type": "apartamento"
+  },
+  {
+    "id": 16,
+    "nombre": "Apartamento Económico",
+    "direccion": "Calle Norte 8, León",
+    "precio": "€120,000",
+    "imagen": "../images/apartments/apartment6.jpg",
+    "type": "apartamento"
+  },
+  {
+    "id": 17,
+    "nombre": "Dúplex Moderno",
+    "direccion": "Calle Picasso 33, Málaga",
+    "precio": "€290,000",
+    "imagen": "../images/apartments/apartment7.jpg",
+    "type": "apartamento"
+  },
+  {
+    "id": 18,
+    "nombre": "Ático Reformado",
+    "direccion": "Calle Alta 50, Santander",
+    "precio": "€210,000",
+    "imagen": "../images/apartments/apartment8.jpg",
+    "type": "apartamento"
+  },
+  {
+    "id": 19,
+    "nombre": "Piso Familiar",
+    "direccion": "Calle Nueva 12, Oviedo",
+    "precio": "€190,000",
+    "imagen": "../images/apartments/apartment9.jpg",
+    "type": "apartamento"
+  },
+  {
+    "id": 20,
+    "nombre": "Apartamento Ático",
+    "direccion": "Av. Libertad 5, Cádiz",
+    "precio": "€240,000",
+    "imagen": "../images/apartments/apartment10.jpg",
+    "type": "apartamento"
+  }
+]
