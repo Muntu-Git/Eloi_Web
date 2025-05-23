@@ -40,6 +40,7 @@ export const Properties = () => {
               <h2>{prop.nombre}</h2>
               <p><strong>Dirección:</strong> {prop.direccion}</p>
               <p><strong>Precio:</strong> {prop.precio}</p>
+              <button className="properties-button-card">Ver más</button>
             </div>
             
           </div>
