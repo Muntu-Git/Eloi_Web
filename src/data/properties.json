@@ -5,7 +5,10 @@
     "direccion": "Calle Roble 45, Barcelona",
     "precio": "€350,000",
     "imagen": "../images/houses/house1.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 4,
+    "bathrooms": 3,
+    "m2": 180
   },
   {
     "id": 2,
@@ -13,7 +16,10 @@
     "direccion": "Calle Encina 32, Valencia",
     "precio": "€310,000",
     "imagen": "../images/houses/house2.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 3,
+    "bathrooms": 2,
+    "m2": 160
   },
   {
     "id": 3,
@@ -21,7 +27,10 @@
     "direccion": "Camino Rural 12, Girona",
     "precio": "€220,000",
     "imagen": "../images/houses/house3.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 3,
+    "bathrooms": 1,
+    "m2": 140
   },
   {
     "id": 4,
@@ -29,7 +38,10 @@
     "direccion": "Av. Marítima 78, Málaga",
     "precio": "€480,000",
     "imagen": "../images/houses/house4.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 5,
+    "bathrooms": 4,
+    "m2": 220
   },
   {
     "id": 5,
@@ -37,7 +49,10 @@
     "direccion": "Calle Mayor 23, Zaragoza",
     "precio": "€295,000",
     "imagen": "../images/houses/house5.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 3,
+    "bathrooms": 2,
+    "m2": 150
   },
   {
     "id": 6,
@@ -45,7 +60,10 @@
     "direccion": "Plaza del Sol 9, Sevilla",
     "precio": "€320,000",
     "imagen": "../images/houses/house6.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 4,
+    "bathrooms": 2,
+    "m2": 170
   },
   {
     "id": 7,
@@ -53,7 +71,10 @@
     "direccion": "Calle Alta 101, Marbella",
     "precio": "€750,000",
     "imagen": "../images/houses/house7.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 6,
+    "bathrooms": 5,
+    "m2": 320
   },
   {
     "id": 8,
@@ -61,7 +82,10 @@
     "direccion": "Paseo Verde 56, Bilbao",
     "precio": "€330,000",
     "imagen": "../images/houses/house8.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 3,
+    "bathrooms": 2,
+    "m2": 155
   },
   {
     "id": 9,
@@ -69,7 +93,10 @@
     "direccion": "Calle Real 17, Valladolid",
     "precio": "€270,000",
     "imagen": "../images/houses/house9.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 3,
+    "bathrooms": 2,
+    "m2": 145
   },
   {
     "id": 10,
@@ -77,7 +104,10 @@
     "direccion": "Av. del Prado 4, Salamanca",
     "precio": "€400,000",
     "imagen": "../images/houses/house10.jpg",
-    "type": "casa"
+    "type": "casa",
+    "habitaciones": 4,
+    "bathrooms": 3,
+    "m2": 190
   },
   {
     "id": 11,
@@ -85,7 +115,10 @@
     "direccion": "Av. Gran Vía 23, Madrid",
     "precio": "€180,000",
     "imagen": "../images/apartments/apartment1.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 2,
+    "bathrooms": 1,
+    "m2": 70
   },
   {
     "id": 12,
@@ -93,7 +126,10 @@
     "direccion": "Calle Sol 88, Valencia",
     "precio": "€250,000",
     "imagen": "../images/apartments/apartment2.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 3,
+    "bathrooms": 2,
+    "m2": 95
   },
   {
     "id": 13,
@@ -101,7 +137,10 @@
     "direccion": "Calle Luna 10, Granada",
     "precio": "€160,000",
     "imagen": "../images/apartments/apartment3.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 2,
+    "bathrooms": 1,
+    "m2": 68
   },
   {
     "id": 14,
@@ -109,7 +148,10 @@
     "direccion": "Av. Costa 99, Alicante",
     "precio": "€230,000",
     "imagen": "../images/apartments/apartment4.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 2,
+    "bathrooms": 2,
+    "m2": 80
   },
   {
     "id": 15,
@@ -117,7 +159,10 @@
     "direccion": "Calle Hierro 14, Bilbao",
     "precio": "€275,000",
     "imagen": "../images/apartments/apartment5.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 1,
+    "bathrooms": 1,
+    "m2": 78
   },
   {
     "id": 16,
@@ -125,7 +170,10 @@
     "direccion": "Calle Norte 8, León",
     "precio": "€120,000",
     "imagen": "../images/apartments/apartment6.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 1,
+    "bathrooms": 1,
+    "m2": 60
   },
   {
     "id": 17,
@@ -133,7 +181,10 @@
     "direccion": "Calle Picasso 33, Málaga",
     "precio": "€290,000",
     "imagen": "../images/apartments/apartment7.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 3,
+    "bathrooms": 2,
+    "m2": 100
   },
   {
     "id": 18,
@@ -141,7 +192,10 @@
     "direccion": "Calle Alta 50, Santander",
     "precio": "€210,000",
     "imagen": "../images/apartments/apartment8.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 2,
+    "bathrooms": 1,
+    "m2": 75
   },
   {
     "id": 19,
@@ -149,7 +203,10 @@
     "direccion": "Calle Nueva 12, Oviedo",
     "precio": "€190,000",
     "imagen": "../images/apartments/apartment9.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 3,
+    "bathrooms": 2,
+    "m2": 85
   },
   {
     "id": 20,
@@ -157,6 +214,9 @@
     "direccion": "Av. Libertad 5, Cádiz",
     "precio": "€240,000",
     "imagen": "../images/apartments/apartment10.jpg",
-    "type": "apartamento"
+    "type": "apartamento",
+    "habitaciones": 2,
+    "bathrooms": 1,
+    "m2": 78
   }
 ]

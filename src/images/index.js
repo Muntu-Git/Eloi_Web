@@ -20,6 +20,11 @@ import apartment8 from "./apartments/apartment8.jpg"
 import apartment9 from "./apartments/apartment9.jpg"
 import apartment10 from "./apartments/apartment10.jpg"
 
+import compra from "./services/compra.png";
+import alquiler from "./services/alquiler.png";
+import tasacion from "./services/tasacion.png";
+import asesoria from "./services/asesoria.png";
+
 const Propertiesimages = {
   1: house1,
   2: house2,
@@ -42,6 +47,11 @@ const Propertiesimages = {
   18: apartment8,
   19: apartment9,
   20: apartment10,  
+
+  21: compra,
+  22: alquiler,
+  23: tasacion,
+  24: asesoria
 };
 
 
