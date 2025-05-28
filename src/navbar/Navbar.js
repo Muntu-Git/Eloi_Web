@@ -11,13 +11,13 @@ export default function NavBar() {
                     <Link to="/home" className="navbar-link">Home</Link>
                 </li>
                 <li className="navbar-li">
-                    <Link to="/properties" className="navbar-link">Properties</Link>
+                    <Link to="/properties" className="navbar-link">Propiedades</Link>
                 </li>
                 <li className="navbar-li">
-                    <Link to="/about" className="navbar-link">About</Link>
+                    <Link to="/about" className="navbar-link">Sobre nosostros</Link>
                 </li>
                 <li className="navbar-li">
-                    <Link to="/contact" className="navbar-link">Contact</Link>
+                    <Link to="/contact" className="navbar-link">Contacto</Link>
                 </li>
             </ul>
         </nav>

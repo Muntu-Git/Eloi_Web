@@ -88,7 +88,8 @@ FOOTER
 */
 
 .footer-div {
-  background: linear-gradient(to bottom, #000018, #4d4d4d);
+  /*background: linear-gradient(to bottom, #000018, #4d4d4d);*/
+  background-color: #000018;
   color: white;
   height: 300px;
 }
