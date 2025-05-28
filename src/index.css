@@ -7,7 +7,8 @@ GENERAL
 
 .App {
   text-align: center;
-  background-color: #d1d1d1; ;
+  background-color: #d1d1d1;
+  ;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -15,12 +16,13 @@ GENERAL
 
 
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background-color: #ebeadf;
-  
+
 }
 
 
@@ -37,8 +39,9 @@ NAVBAR
   flex: 1;
   width: 100%;
   background-color: #000018;
-  padding: 0; /* Elimina padding que interfiere con el 100% height */
-  
+  padding: 0;
+  /* Elimina padding que interfiere con el 100% height */
+
 }
 
 .navbar-ul {
@@ -62,7 +65,8 @@ NAVBAR
   color: #ffffff;
   height: 100%;
   width: 100%;
-  display: flex; /* Hace que el texto se centre */
+  display: flex;
+  /* Hace que el texto se centre */
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease;
@@ -83,9 +87,14 @@ FOOTER
 *********************
 */
 
-.footer-div{
-  background-color: #00021a;
+.footer-div {
+  background: linear-gradient(to bottom, #000018, #4d4d4d);
   color: white;
+  height: 300px;
+}
+
+.footer-div h2 {
+  margin: 50px;
 }
 
 /* 
@@ -121,10 +130,10 @@ HOME
   max-width: 600px;
 }
 
-.icon-home{
-    height: 400px;
-    width: 200px;
-    margin: 20px;
+.icon-home {
+  height: 400px;
+  width: 200px;
+  margin: 20px;
 
 }
 
@@ -136,12 +145,10 @@ HOME
 }
 
 .black-section-1 {
-  
+  padding: 100px;
 }
 
-.black-section-2 {
-  
-}
+.black-section-2 {}
 
 .black-section h2 {
   font-size: 2.5rem;
@@ -157,7 +164,7 @@ HOME
 
 .outstanding-container {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
   margin-top: 2rem;
   flex-wrap: wrap;
@@ -165,8 +172,8 @@ HOME
 
 .outstanding-hover-card {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 300px;
   overflow: hidden;
   border-radius: 12px;
   cursor: pointer;
@@ -206,7 +213,12 @@ HOME
 }
 
 
-
+.overlay-img {
+  width: 100%;
+  max-width: 150px;
+  /* O el tamaño que desees */
+  height: auto;
+}
 
 
 /* 
@@ -270,7 +282,7 @@ PROPERTIES
 
 }
 
-.properties-card-text{
+.properties-card-text {
   flex: 1;
   padding: 20px;
 }

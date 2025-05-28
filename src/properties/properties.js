@@ -38,13 +38,13 @@ export const Properties = () => {
             />
             <div className="properties-card-text">
               <h2>{prop.nombre}</h2>
-              <p><strong>Price:</strong> {prop.precio}</p>
-              <p><strong>Direction:</strong> {prop.direccion}</p>
+              <p><strong>Precio:</strong> {prop.precio}</p>
+              <p><strong>Dirección:</strong> {prop.direccion}</p>
               
               <ul>
-                <li><strong>🛏️Rooms:</strong> {prop.habitaciones}</li>
-                <li><strong>🛁Bathrooms:</strong> {prop.bathrooms}</li>
-                <li><strong>📐m2:</strong> {prop.m2} m²</li>
+                <li><strong>🛏️Habitaciones:</strong> {prop.habitaciones}</li>
+                <li><strong>🛁Baños:</strong> {prop.bathrooms}</li>
+                <li><strong>📐M²:</strong> {prop.m2}</li>
               </ul>
               
               <button className="properties-button-card">Ver más</button>

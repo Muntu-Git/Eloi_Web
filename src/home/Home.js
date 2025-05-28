@@ -39,14 +39,14 @@ export const Home = () => {
       {/* PRIMERA IMAGEN PARALLAX */}
       <div className="parallax" style={{ backgroundImage: `url(${image1})` }}>
         <div className="home-overlay-content">
-          <h1>Your home is waiting</h1>
-          <p>Houses, apartments and more</p>
+          <h1>Tu hogar te esta esperando</h1>
+          <p>Casas, apartamentos y mas</p>
         </div>
       </div>
 
       {/* SECCIÓN INTERMEDIA CON FONDO NEGRO */}
       <div className="black-section black-section-1">
-        <h2>Outstanding properties</h2>
+        <h2>Propiedades destacadas</h2>
         <div className="outstanding-grid outstanding-card-section">
           {renderOutstandingProperties()}
         </div>
@@ -60,33 +60,40 @@ export const Home = () => {
         <div className="home-overlay-content icon-home">
           <h1>Compra</h1>
           <p>Encuentra la casa perfecta para ti, al mejor precio y con total seguridad.</p>
-          <img src={Propertiesimages[21]}></img>
+          <img src={Propertiesimages[21]} alt="Compra" className="overlay-img"></img>
         </div>
         <div className="home-overlay-content icon-home">
           <h1>Alquiler</h1>
           <p>Amplia oferta de alquileres en ubicaciones clave para todos los presupuestos.</p>
-          <img src={Propertiesimages[22]}></img>
+          <img src={Propertiesimages[22]} alt="Alquiler" className="overlay-img"></img>
         </div>
         <div className="home-overlay-content icon-home">
           <h1>Tasación</h1>
           <p>Valoramos tu propiedad de forma profesional, precisa y sin compromiso.</p>
-          <img src={Propertiesimages[23]}></img>
+          <img src={Propertiesimages[23]} alt="Tasación" className="overlay-img"></img>
         </div>
         <div className="home-overlay-content icon-home">
           <h1>Asesoría</h1>
           <p>Te guiamos en cada paso del proceso de compra, venta o inversión.</p>
-          <img src={Propertiesimages[24]} alt="Asesoria"></img>
+          <img src={Propertiesimages[24]} alt="Asesoria" className="overlay-img"></img>
         </div>
       </div>
 
 
       {/* SECCIÓN INTERMEDIA CON FONDO NEGRO */}
       <div className="black-section black-section-2">
-        <h2>¿Por qué elegirnos?</h2>
-        <p>
-          Somos una inmobiliaria con más de 15 años de experiencia. Te ayudamos a encontrar el
-          hogar de tus sueños, con transparencia y seguridad.
-        </p>
+        <div>
+          <h2>¿Por qué elegirnos?</h2>
+          <p>
+            Somos una inmobiliaria con más de 15 años de experiencia. Te ayudamos a encontrar el
+            hogar de tus sueños, con transparencia y seguridad.
+          </p>
+        </div>
+        <div>
+          <h2>Testimonios</h2>
+
+        </div>
+
       </div>
 
     </div>
