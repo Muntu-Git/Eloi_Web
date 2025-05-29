@@ -1,14 +1,74 @@
+import React, { useState, useEffect } from 'react';
 import image1 from "../images/houses/house1.jpg";
 import image2 from "../images/apartments/apartment1.jpg";
 import properties from "../data/properties.json";
 import Propertiesimages from "../images";
 
-
-
 export const Home = () => {
+  // Estado para el carrusel de testimonios
+  const [currentTestimonial, setCurrentTestimonial] = useState(0);
+
+  // Datos de testimonios
+  const testimonials = [
+    {
+      id: 1,
+      name: "María González",
+      text: "Excelente servicio, me ayudaron a encontrar la casa perfecta para mi familia. Muy profesionales y atentos en todo momento.",
+      rating: 5
+    },
+    {
+      id: 2,
+      name: "Carlos Rodríguez",
+      text: "La mejor decisión fue confiar en ellos para vender mi apartamento. Lo vendieron en tiempo récord y al mejor precio.",
+      rating: 5
+    },
+    {
+      id: 3,
+      name: "Ana Martínez",
+      text: "Proceso de compra muy transparente y sin sorpresas. Me asesoraron en cada paso y resolvieron todas mis dudas.",
+      rating: 5
+    },
+    {
+      id: 4,
+      name: "Diego López",
+      text: "Llevo años trabajando con ellos y siempre superan mis expectativas. Altamente recomendados para cualquier operación inmobiliaria.",
+      rating: 5
+    }
+  ];
+
+  // Auto-avance del carrusel cada 5 segundos
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTestimonial((prev) => 
+        prev === testimonials.length - 1 ? 0 : prev + 1
+      );
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [testimonials.length]);
+
+  // Funciones para navegación manual
+  const nextTestimonial = () => {
+    setCurrentTestimonial((prev) => 
+      prev === testimonials.length - 1 ? 0 : prev + 1
+    );
+  };
+
+  const prevTestimonial = () => {
+    setCurrentTestimonial((prev) => 
+      prev === 0 ? testimonials.length - 1 : prev - 1
+    );
+  };
+
+  const goToTestimonial = (index) => {
+    setCurrentTestimonial(index);
+  };
+
+  const renderStars = (rating) => {
+    return '★'.repeat(rating) + '☆'.repeat(5 - rating);
+  };
 
   const renderOutstandingProperties = () => {
-
     // Mezclar aleatoriamente el array
     const shuffled = properties.sort(() => 0.5 - Math.random());
 
@@ -79,7 +139,6 @@ export const Home = () => {
         </div>
       </div>
 
-
       {/* SECCIÓN INTERMEDIA CON FONDO NEGRO */}
       <div className="black-section black-section-2">
         <div>
@@ -89,17 +148,61 @@ export const Home = () => {
             hogar de tus sueños, con transparencia y seguridad.
           </p>
         </div>
-        <div>
-          <h2>Testimonios</h2>
-
-        </div>
-
       </div>
 
+      {/* TERCERA IMAGEN PARALLAX - TESTIMONIOS */}
+      <div className="parallax" style={{ backgroundImage: `url(${image1})` }}>
+        <div className="home-overlay-content testimonials-content">
+          <h2>Testimonios</h2>
+          
+          {/* CARRUSEL DE TESTIMONIOS */}
+          <div className="testimonials-carousel">
+            <div className="testimonial-container">
+              <div className="testimonial-card">
+                <div className="testimonial-stars">
+                  {renderStars(testimonials[currentTestimonial].rating)}
+                </div>
+                <p className="testimonial-text">
+                  "{testimonials[currentTestimonial].text}"
+                </p>
+                <h4 className="testimonial-name">
+                  - {testimonials[currentTestimonial].name}
+                </h4>
+              </div>
+            </div>
+
+            {/* Controles de navegación */}
+            <div className="carousel-controls">
+              <button 
+                className="carousel-btn prev-btn" 
+                onClick={prevTestimonial}
+                aria-label="Testimonio anterior"
+              >
+                ❮
+              </button>
+              <button 
+                className="carousel-btn next-btn" 
+                onClick={nextTestimonial}
+                aria-label="Siguiente testimonio"
+              >
+                ❯
+              </button>
+            </div>
+
+            {/* Indicadores de puntos */}
+            <div className="carousel-dots">
+              {testimonials.map((_, index) => (
+                <button
+                  key={index}
+                  className={`dot ${index === currentTestimonial ? 'active' : ''}`}
+                  onClick={() => goToTestimonial(index)}
+                  aria-label={`Ir al testimonio ${index + 1}`}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-
   );
 };
-
-
