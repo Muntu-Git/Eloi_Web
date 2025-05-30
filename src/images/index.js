@@ -26,6 +26,10 @@ import tasacion from "./services/tasacion.png";
 import asesoria from "./services/asesoria.png";
 
 import trabajadores from "./about/trabajadores.png";
+import trabajador1 from "./about/trabajador1.png";
+import trabajador2 from "./about/trabajador2.png";
+import trabajadora1 from "./about/trabajadora1.png";
+import trabajadora2 from "./about/trabajadora2.png";
 
 const Propertiesimages = {
   // Casas
@@ -59,7 +63,11 @@ const Propertiesimages = {
   24: asesoria,
 
   // About
-  25: trabajadores
+  25: trabajadores,
+  26: trabajador1,
+  27: trabajador2,
+  28: trabajadora1,
+  29: trabajadora2
 };
 
 

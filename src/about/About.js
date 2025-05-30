@@ -49,7 +49,7 @@ export const About = () => {
       role: "CEO & Fundadora",
       description: "Con más de 20 años de experiencia en el sector inmobiliario, lidera nuestra visión estratégica.",
       // image: ceoImage,
-      image: "https://via.placeholder.com/300x300?text=Ana+García", // Placeholder temporal
+      image: Propertiesimages[28], // Placeholder temporal
       specialties: ["Dirección estratégica", "Desarrollo de negocio", "Relaciones institucionales"]
     },
     {
@@ -58,7 +58,7 @@ export const About = () => {
       role: "Agente Senior",
       description: "Especialista en propiedades residenciales de lujo con un enfoque personalizado para cada cliente.",
       // image: agent1Image,
-      image: "https://via.placeholder.com/300x300?text=Miguel+R", // Placeholder temporal
+      image: Propertiesimages[27], // Placeholder temporal
       specialties: ["Propiedades de lujo", "Negociación", "Valoraciones"]
     },
     {
@@ -67,7 +67,7 @@ export const About = () => {
       role: "Asesora Financiera",
       description: "Experta en financiación inmobiliaria, ayuda a nuestros clientes a encontrar las mejores opciones.",
       // image: advisor1Image,
-      image: "https://via.placeholder.com/300x300?text=Carmen+L", // Placeholder temporal
+      image: Propertiesimages[29], // Placeholder temporal
       specialties: ["Financiación", "Hipotecas", "Asesoramiento fiscal"]
     },
     {
@@ -75,7 +75,7 @@ export const About = () => {
       name: "David Martín",
       role: "Agente Comercial",
       description: "Especializado en propiedades comerciales e inversiones inmobiliarias para empresas.",
-      image: "https://via.placeholder.com/300x300?text=David+M", // Placeholder temporal
+      image: Propertiesimages[26], // Placeholder temporal
       specialties: ["Inmuebles comerciales", "Inversiones", "Análisis de mercado"]
     }
   ];
@@ -196,7 +196,10 @@ export const About = () => {
           <div className="cta-content">
             <h2>¿Listo para encontrar tu hogar ideal?</h2>
             <p>Nuestro equipo está aquí para ayudarte en cada paso del camino</p>
-            <button className="cta-button">Contacta con nosotros</button>
+            <a href="/contact" className="cta-link">
+              <button className="cta-button">Contacta con nosotros</button>
+            </a>
+            
           </div>
         </div>
       </section>

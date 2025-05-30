@@ -14,7 +14,7 @@ export const Home = () => {
       id: 1,
       name: "María González",
       text: "Excelente servicio, me ayudaron a encontrar la casa perfecta para mi familia. Muy profesionales y atentos en todo momento.",
-      rating: 5
+      rating: 4
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ export const Home = () => {
       id: 3,
       name: "Ana Martínez",
       text: "Proceso de compra muy transparente y sin sorpresas. Me asesoraron en cada paso y resolvieron todas mis dudas.",
-      rating: 5
+      rating: 3
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ export const Home = () => {
   // Auto-avance del carrusel cada 5 segundos
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentTestimonial((prev) => 
+      setCurrentTestimonial((prev) =>
         prev === testimonials.length - 1 ? 0 : prev + 1
       );
     }, 5000);
@@ -49,13 +49,13 @@ export const Home = () => {
 
   // Funciones para navegación manual
   const nextTestimonial = () => {
-    setCurrentTestimonial((prev) => 
+    setCurrentTestimonial((prev) =>
       prev === testimonials.length - 1 ? 0 : prev + 1
     );
   };
 
   const prevTestimonial = () => {
-    setCurrentTestimonial((prev) => 
+    setCurrentTestimonial((prev) =>
       prev === 0 ? testimonials.length - 1 : prev - 1
     );
   };
@@ -100,7 +100,10 @@ export const Home = () => {
       <div className="parallax" style={{ backgroundImage: `url(${image1})` }}>
         <div className="home-overlay-content">
           <h1>Tu hogar te esta esperando</h1>
-          <p>Casas, apartamentos y mas</p>
+          <a href="/properties" className="home-button-link">
+            Casas, apartamentos y más
+          </a>
+
         </div>
       </div>
 
@@ -151,10 +154,10 @@ export const Home = () => {
       </div>
 
       {/* TERCERA IMAGEN PARALLAX - TESTIMONIOS */}
-      <div className="parallax" style={{ backgroundImage: `url(${image1})` }}>
+      <div className="parallax" style={{ backgroundImage: `url(${image2})` }}>
         <div className="home-overlay-content testimonials-content">
           <h2>Testimonios</h2>
-          
+
           {/* CARRUSEL DE TESTIMONIOS */}
           <div className="testimonials-carousel">
             <div className="testimonial-container">
@@ -173,15 +176,15 @@ export const Home = () => {
 
             {/* Controles de navegación */}
             <div className="carousel-controls">
-              <button 
-                className="carousel-btn prev-btn" 
+              <button
+                className="carousel-btn prev-btn"
                 onClick={prevTestimonial}
                 aria-label="Testimonio anterior"
               >
                 ❮
               </button>
-              <button 
-                className="carousel-btn next-btn" 
+              <button
+                className="carousel-btn next-btn"
                 onClick={nextTestimonial}
                 aria-label="Siguiente testimonio"
               >
