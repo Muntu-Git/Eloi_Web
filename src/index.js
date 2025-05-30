@@ -5,6 +5,7 @@ import './index.css';
 import { App } from "./app";
 import { Home } from "./home";
 import { Properties } from "./properties";
+import { PropertyDetail } from "./properties/propertydetail"; // Nueva importación
 import { About } from "./about";
 import { Contact } from "./contact";
 
@@ -26,6 +27,10 @@ let router = createBrowserRouter([
         element: <Properties />,
       },
       {
+        path: "/property/:id", // Nueva ruta para detalle de propiedad
+        element: <PropertyDetail />,
+      },
+      {
         path: "/about",
         element: <About />,
       },
@@ -37,12 +42,9 @@ let router = createBrowserRouter([
   },
 ]);
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-

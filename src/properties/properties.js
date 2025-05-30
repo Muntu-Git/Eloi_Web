@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Agregar esta importación
 import propertiesData from "../data/properties.json";
 import Propertiesimages from "../images";
 
@@ -47,11 +48,15 @@ export const Properties = () => {
                 <li><strong>📐M²:</strong> {prop.m2}</li>
               </ul>
               
-              <button className="properties-button-card">Ver más</button>
+              {/* CAMBIO: Link en lugar de button */}
+              <Link 
+                to={`/property/${prop.id}`} 
+                className="properties-button-card"
+              >
+                Ver más
+              </Link>
             </div>
-            
           </div>
-          
         ))}
       </div>
     </div>
