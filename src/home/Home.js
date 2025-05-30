@@ -26,7 +26,7 @@ export const Home = () => {
       id: 3,
       name: "Ana Martínez",
       text: "Proceso de compra muy transparente y sin sorpresas. Me asesoraron en cada paso y resolvieron todas mis dudas.",
-      rating: 3
+      rating: 4
     },
     {
       id: 4,

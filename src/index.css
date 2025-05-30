@@ -122,11 +122,11 @@ FOOTER
   /*background: linear-gradient(to bottom, #000018, #4d4d4d);*/
   background-color: #000018;
   color: white;
-  height: 300px;
+  height: auto;
 }
 
 .footer-div h2 {
-  margin: 50px;
+  padding: 50px;
 }
 
 /* 

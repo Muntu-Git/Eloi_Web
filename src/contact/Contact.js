@@ -32,9 +32,9 @@ export const Contact = () => {
           <div className="social">
             <h3>Síguenos</h3>
             <div>
-              <a href="#">Facebook</a>
-              <a href="#">Instagram</a>
-              <a href="#">LinkedIn</a>
+              <a href="https://www.facebook.com/">Facebook</a>
+              <a href="https://www.instagram.com/">Instagram</a>
+              <a href="https://www.linkedin.com/">LinkedIn</a>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@ export const Contact = () => {
           <div className="checkbox">
             <input type="checkbox" id="privacy" required />
             <label htmlFor="privacy">
-              Acepto la <a href="#">política de privacidad</a>
+              Acepto la <a href="https://es.wikipedia.org/wiki/Pol%C3%ADtica_de_privacidad#:~:text=Una%20pol%C3%ADtica%20de%20privacidad%20es,el%20usuario%20crea%20una%20cuenta.">política de privacidad</a>
             </label>
           </div>
 
