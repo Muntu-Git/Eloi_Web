@@ -25,7 +25,10 @@ import alquiler from "./services/alquiler.png";
 import tasacion from "./services/tasacion.png";
 import asesoria from "./services/asesoria.png";
 
+import trabajadores from "./about/trabajadores.png";
+
 const Propertiesimages = {
+  // Casas
   1: house1,
   2: house2,
   3: house3,
@@ -37,6 +40,7 @@ const Propertiesimages = {
   9: house9,
   10: house10,
 
+  // Apartamentos
   11: apartment1,
   12: apartment2,
   13: apartment3,
@@ -48,10 +52,14 @@ const Propertiesimages = {
   19: apartment9,
   20: apartment10,  
 
+  // Servicios
   21: compra,
   22: alquiler,
   23: tasacion,
-  24: asesoria
+  24: asesoria,
+
+  // About
+  25: trabajadores
 };
 
 
